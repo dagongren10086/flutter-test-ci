@@ -30,9 +30,9 @@ jobs:
         with:
           flutter-version: "1.22.5"
           channel: stable
-      - run: flutter doctor
       - run: ls
       - run: cd myApp
+      - run: ls
       - run: flutter pub get
       - run: flutter build apk --release
         env:
