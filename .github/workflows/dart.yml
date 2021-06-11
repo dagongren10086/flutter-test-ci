@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-java@v2.1.0
         with: 
           java-version: '8'
- 
+          distribution: 'adopt'
       - name: Flutter action
         # You may pin to the exact commit or the version.
         # uses: subosito/flutter-action@5188e412814bdb5c63ee55c548f2448044a673de
