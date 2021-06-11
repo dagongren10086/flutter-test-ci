@@ -33,7 +33,7 @@ jobs:
       - run: ls
       - run: cd myApp
       - run: ls
-      - run: flutter pub get
+      - run: flutter pub get myApp/
       - run: flutter build apk --release
         env:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
