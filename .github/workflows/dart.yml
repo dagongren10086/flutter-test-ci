@@ -32,6 +32,7 @@ jobs:
           channel: stable
       - run: flutter doctor
       - run: ls
+      - run: cd myApp
       - run: flutter pub get
       - run: flutter build apk --release
         env:
