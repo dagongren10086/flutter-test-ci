@@ -30,7 +30,7 @@ jobs:
         with:
           flutter-version: "1.22.5"
           channel: stable
-      - run: 
+      - run: |
           cd myApp
           flutter pub get
       - run: flutter build apk --release
